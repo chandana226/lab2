@@ -1,0 +1,100 @@
+[2025-04-23T23:04:57.708+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-23T23:04:57.720+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_etl_dag.load_spotify_csv_to_snowflake scheduled__2025-04-22T00:00:00+00:00 [queued]>
+[2025-04-23T23:04:57.724+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_etl_dag.load_spotify_csv_to_snowflake scheduled__2025-04-22T00:00:00+00:00 [queued]>
+[2025-04-23T23:04:57.724+0000] {taskinstance.py:2865} INFO - Starting attempt 2 of 2
+[2025-04-23T23:04:57.728+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): load_spotify_csv_to_snowflake> on 2025-04-22 00:00:00+00:00
+[2025-04-23T23:04:57.731+0000] {standard_task_runner.py:72} INFO - Started process 442 to run task
+[2025-04-23T23:04:57.735+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'spotify_etl_dag', 'load_spotify_csv_to_snowflake', 'scheduled__2025-04-22T00:00:00+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/spotify_etl_dag.py', '--cfg-path', '/tmp/tmp4tuv542h']
+[2025-04-23T23:04:57.737+0000] {standard_task_runner.py:105} INFO - Job 19: Subtask load_spotify_csv_to_snowflake
+[2025-04-23T23:04:57.762+0000] {task_command.py:467} INFO - Running <TaskInstance: spotify_etl_dag.load_spotify_csv_to_snowflake scheduled__2025-04-22T00:00:00+00:00 [running]> on host f2b464dc2be1
+[2025-04-23T23:04:57.795+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spotify_etl_dag' AIRFLOW_CTX_TASK_ID='load_spotify_csv_to_snowflake' AIRFLOW_CTX_EXECUTION_DATE='2025-04-22T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-22T00:00:00+00:00'
+[2025-04-23T23:04:57.796+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-23T23:04:57.827+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T23:04:57.828+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.10.14, Platform: Linux-6.10.14-linuxkit-aarch64-with-glibc2.36
+[2025-04-23T23:04:57.829+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-04-23T23:04:57.830+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-04-23T23:06:01.683+0000] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/opt/airflow/dags/load_spotify_to_snowflake.py", line 29, in load_csv_to_snowflake
+    cursor.execute("""
+  File "/home/airflow/.local/lib/python3.10/site-packages/snowflake/connector/cursor.py", line 1087, in execute
+    Error.errorhandler_wrapper(self.connection, self, error_class, errvalue)
+  File "/home/airflow/.local/lib/python3.10/site-packages/snowflake/connector/errors.py", line 284, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/home/airflow/.local/lib/python3.10/site-packages/snowflake/connector/errors.py", line 339, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/airflow/.local/lib/python3.10/site-packages/snowflake/connector/errors.py", line 215, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 000904 (42000): 01bbe40a-0205-0ebd-0004-59ff002cb356: SQL compilation error: error line 5 at position 95
+invalid identifier 'NAN'
+[2025-04-23T23:06:01.710+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=spotify_etl_dag, task_id=load_spotify_csv_to_snowflake, run_id=scheduled__2025-04-22T00:00:00+00:00, execution_date=20250422T000000, start_date=20250423T230457, end_date=20250423T230601
+[2025-04-23T23:06:01.732+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-23T23:06:01.734+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 19 for task load_spotify_csv_to_snowflake (000904 (42000): 01bbe40a-0205-0ebd-0004-59ff002cb356: SQL compilation error: error line 5 at position 95
+invalid identifier 'NAN'; 442)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/opt/airflow/dags/load_spotify_to_snowflake.py", line 29, in load_csv_to_snowflake
+    cursor.execute("""
+  File "/home/airflow/.local/lib/python3.10/site-packages/snowflake/connector/cursor.py", line 1087, in execute
+    Error.errorhandler_wrapper(self.connection, self, error_class, errvalue)
+  File "/home/airflow/.local/lib/python3.10/site-packages/snowflake/connector/errors.py", line 284, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/home/airflow/.local/lib/python3.10/site-packages/snowflake/connector/errors.py", line 339, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/airflow/.local/lib/python3.10/site-packages/snowflake/connector/errors.py", line 215, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 000904 (42000): 01bbe40a-0205-0ebd-0004-59ff002cb356: SQL compilation error: error line 5 at position 95
+invalid identifier 'NAN'
+[2025-04-23T23:06:01.790+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-04-23T23:06:01.805+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.10/site-packages/***/models/baseoperator.py:1378 AirflowProviderDeprecationWarning: Call to deprecated class SnowflakeOperator. (This class is deprecated. Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`. Also, you can provide `hook_params={'warehouse': <warehouse>, 'database': <database>, 'role': <role>, 'schema': <schema>, 'authenticator': <authenticator>,'session_parameters': <session_parameters>}`.)
+[2025-04-23T23:06:01.817+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-23T23:06:01.819+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,27 @@
+[2025-04-23T23:11:20.395+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-23T23:11:20.400+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_etl_dag.load_spotify_csv_to_snowflake manual__2025-04-23T23:11:19.216313+00:00 [queued]>
+[2025-04-23T23:11:20.403+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_etl_dag.load_spotify_csv_to_snowflake manual__2025-04-23T23:11:19.216313+00:00 [queued]>
+[2025-04-23T23:11:20.403+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2025-04-23T23:11:20.407+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): load_spotify_csv_to_snowflake> on 2025-04-23 23:11:19.216313+00:00
+[2025-04-23T23:11:20.409+0000] {standard_task_runner.py:72} INFO - Started process 297 to run task
+[2025-04-23T23:11:20.411+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'spotify_etl_dag', 'load_spotify_csv_to_snowflake', 'manual__2025-04-23T23:11:19.216313+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/spotify_etl_dag.py', '--cfg-path', '/tmp/tmps7i4f0u_']
+[2025-04-23T23:11:20.413+0000] {standard_task_runner.py:105} INFO - Job 22: Subtask load_spotify_csv_to_snowflake
+[2025-04-23T23:11:20.439+0000] {task_command.py:467} INFO - Running <TaskInstance: spotify_etl_dag.load_spotify_csv_to_snowflake manual__2025-04-23T23:11:19.216313+00:00 [running]> on host fb7f0aec2fef
+[2025-04-23T23:11:20.468+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spotify_etl_dag' AIRFLOW_CTX_TASK_ID='load_spotify_csv_to_snowflake' AIRFLOW_CTX_EXECUTION_DATE='2025-04-23T23:11:19.216313+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-23T23:11:19.216313+00:00'
+[2025-04-23T23:11:20.468+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-23T23:11:20.502+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T23:11:20.503+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.10.14, Platform: Linux-6.10.14-linuxkit-aarch64-with-glibc2.36
+[2025-04-23T23:11:20.504+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-04-23T23:11:20.504+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-04-23T23:11:21.330+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-23T23:20:38.523+0000] {job.py:229} INFO - Heartbeat recovered after 346.13 seconds
+[2025-04-23T23:24:48.746+0000] {job.py:229} INFO - Heartbeat recovered after 73.82 seconds
+[2025-04-23T23:51:04.352+0000] {job.py:229} INFO - Heartbeat recovered after 204.40 seconds
+[2025-04-24T00:12:46.875+0000] {job.py:229} INFO - Heartbeat recovered after 46.20 seconds
+[2025-04-24T00:31:47.846+0000] {job.py:229} INFO - Heartbeat recovered after 122.10 seconds
+[2025-04-24T04:05:17.410+0000] {job.py:229} INFO - Heartbeat recovered after 3996.61 seconds
+[2025-04-24T04:37:11.705+0000] {job.py:229} INFO - Heartbeat recovered after 1889.06 seconds
+[2025-04-24T04:59:20.509+0000] {job.py:229} INFO - Heartbeat recovered after 1212.69 seconds
+[2025-04-24T05:07:49.582+0000] {job.py:229} INFO - Heartbeat recovered after 483.88 seconds
+[2025-04-24T05:12:53.522+0000] {job.py:229} INFO - Heartbeat recovered after 127.41 seconds
+[2025-04-24T05:17:33.930+0000] {job.py:229} INFO - Heartbeat recovered after 48.45 seconds

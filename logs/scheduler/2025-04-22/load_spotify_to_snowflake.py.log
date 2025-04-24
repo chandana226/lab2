@@ -1,0 +1,450 @@
+[2025-04-22T00:04:34.998+0000] {processor.py:186} INFO - Started process (PID=5451) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T00:04:34.999+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T00:04:35.000+0000] {logging_mixin.py:190} INFO - [2025-04-22T00:04:35.000+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T00:04:35.002+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T00:04:35.010+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.016 seconds
+[2025-04-22T00:47:45.658+0000] {processor.py:186} INFO - Started process (PID=5487) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T00:47:45.660+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T00:47:45.664+0000] {logging_mixin.py:190} INFO - [2025-04-22T00:47:45.664+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T00:47:45.670+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T00:47:45.701+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.053 seconds
+[2025-04-22T01:18:09.571+0000] {processor.py:186} INFO - Started process (PID=5502) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T01:18:09.572+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T01:18:09.574+0000] {logging_mixin.py:190} INFO - [2025-04-22T01:18:09.574+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T01:18:09.579+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T01:18:09.587+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.020 seconds
+[2025-04-22T01:46:45.628+0000] {processor.py:186} INFO - Started process (PID=5517) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T01:46:45.630+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T01:46:45.632+0000] {logging_mixin.py:190} INFO - [2025-04-22T01:46:45.632+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T01:46:45.636+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T01:46:45.653+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.034 seconds
+[2025-04-22T03:21:52.653+0000] {processor.py:186} INFO - Started process (PID=5532) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T03:21:52.654+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T03:21:52.658+0000] {logging_mixin.py:190} INFO - [2025-04-22T03:21:52.658+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T03:21:52.662+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T03:21:52.682+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.036 seconds
+[2025-04-22T03:44:03.378+0000] {processor.py:186} INFO - Started process (PID=5547) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T03:44:03.380+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T03:44:03.383+0000] {logging_mixin.py:190} INFO - [2025-04-22T03:44:03.382+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T03:44:03.387+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T03:44:03.404+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.033 seconds
+[2025-04-22T04:05:17.188+0000] {processor.py:186} INFO - Started process (PID=5562) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:05:17.189+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:05:17.200+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:05:17.199+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:05:17.204+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:05:17.219+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.037 seconds
+[2025-04-22T04:05:47.667+0000] {processor.py:186} INFO - Started process (PID=5577) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:05:47.668+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:05:47.669+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:05:47.668+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:05:47.670+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:05:47.675+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.013 seconds
+[2025-04-22T04:06:18.066+0000] {processor.py:186} INFO - Started process (PID=5592) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:06:18.067+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:06:18.069+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:06:18.069+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:06:18.071+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:06:18.078+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.018 seconds
+[2025-04-22T04:06:48.494+0000] {processor.py:186} INFO - Started process (PID=5607) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:06:48.495+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:06:48.496+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:06:48.496+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:06:48.497+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:06:48.503+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:07:18.998+0000] {processor.py:186} INFO - Started process (PID=5622) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:07:18.999+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:07:19.000+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:07:19.000+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:07:19.001+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:07:19.007+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.012 seconds
+[2025-04-22T04:07:49.531+0000] {processor.py:186} INFO - Started process (PID=5637) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:07:49.531+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:07:49.532+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:07:49.532+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:07:49.533+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:07:49.539+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:08:19.999+0000] {processor.py:186} INFO - Started process (PID=5652) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:08:19.999+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:08:20.000+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:08:20.000+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:08:20.001+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:08:20.007+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:08:50.406+0000] {processor.py:186} INFO - Started process (PID=5667) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:08:50.406+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:08:50.407+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:08:50.407+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:08:50.408+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:08:50.414+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.010 seconds
+[2025-04-22T04:09:20.892+0000] {processor.py:186} INFO - Started process (PID=5682) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:09:20.893+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:09:20.894+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:09:20.894+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:09:20.895+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:09:20.901+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:09:51.379+0000] {processor.py:186} INFO - Started process (PID=5697) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:09:51.380+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:09:51.381+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:09:51.381+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:09:51.382+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:09:51.388+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.013 seconds
+[2025-04-22T04:10:21.851+0000] {processor.py:186} INFO - Started process (PID=5712) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:10:21.851+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:10:21.852+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:10:21.852+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:10:21.854+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:10:21.860+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.012 seconds
+[2025-04-22T04:10:52.293+0000] {processor.py:186} INFO - Started process (PID=5732) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:10:52.294+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:10:52.295+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:10:52.295+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:10:52.296+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:10:52.302+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:11:22.725+0000] {processor.py:186} INFO - Started process (PID=5747) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:11:22.725+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:11:22.726+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:11:22.726+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:11:22.728+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:11:22.733+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:11:53.168+0000] {processor.py:186} INFO - Started process (PID=5761) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:11:53.169+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:11:53.170+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:11:53.169+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:11:53.171+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:11:53.176+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.012 seconds
+[2025-04-22T04:12:23.663+0000] {processor.py:186} INFO - Started process (PID=5777) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:12:23.663+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:12:23.664+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:12:23.664+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:12:23.665+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:12:23.671+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:12:54.111+0000] {processor.py:186} INFO - Started process (PID=5792) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:12:54.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:12:54.113+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:12:54.113+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:12:54.114+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:12:54.120+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:13:24.586+0000] {processor.py:186} INFO - Started process (PID=5807) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:13:24.587+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:13:24.588+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:13:24.588+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:13:24.589+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:13:24.594+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:13:55.091+0000] {processor.py:186} INFO - Started process (PID=5822) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:13:55.092+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:13:55.093+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:13:55.093+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:13:55.094+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:13:55.101+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.016 seconds
+[2025-04-22T04:14:25.607+0000] {processor.py:186} INFO - Started process (PID=5837) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:14:25.607+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:14:25.608+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:14:25.608+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:14:25.610+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:14:25.615+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.012 seconds
+[2025-04-22T04:14:56.151+0000] {processor.py:186} INFO - Started process (PID=5852) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:14:56.152+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:14:56.153+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:14:56.152+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:14:56.154+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:14:56.160+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.012 seconds
+[2025-04-22T04:15:26.754+0000] {processor.py:186} INFO - Started process (PID=5867) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:15:26.754+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:15:26.755+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:15:26.755+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:15:26.757+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:15:26.763+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.012 seconds
+[2025-04-22T04:15:57.362+0000] {processor.py:186} INFO - Started process (PID=5882) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:15:57.364+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:15:57.365+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:15:57.365+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:15:57.367+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:15:57.374+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.015 seconds
+[2025-04-22T04:16:27.841+0000] {processor.py:186} INFO - Started process (PID=5897) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:16:27.842+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:16:27.843+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:16:27.843+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:16:27.845+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:16:27.852+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.014 seconds
+[2025-04-22T04:16:58.367+0000] {processor.py:186} INFO - Started process (PID=5912) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:16:58.368+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:16:58.369+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:16:58.369+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:16:58.370+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:16:58.376+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.014 seconds
+[2025-04-22T04:17:28.907+0000] {processor.py:186} INFO - Started process (PID=5927) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:17:28.908+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:17:28.909+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:17:28.909+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:17:28.911+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:17:28.918+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.016 seconds
+[2025-04-22T04:17:59.354+0000] {processor.py:186} INFO - Started process (PID=5942) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:17:59.354+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:17:59.355+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:17:59.355+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:17:59.356+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:17:59.362+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:18:29.805+0000] {processor.py:186} INFO - Started process (PID=5957) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:18:29.805+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:18:29.806+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:18:29.806+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:18:29.808+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:18:29.814+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.012 seconds
+[2025-04-22T04:19:00.256+0000] {processor.py:186} INFO - Started process (PID=5972) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:19:00.256+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:19:00.257+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:19:00.257+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:19:00.258+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:19:00.264+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:19:30.704+0000] {processor.py:186} INFO - Started process (PID=5986) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:19:30.705+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:19:30.706+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:19:30.706+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:19:30.707+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:19:30.712+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.010 seconds
+[2025-04-22T04:20:01.170+0000] {processor.py:186} INFO - Started process (PID=6002) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:20:01.171+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:20:01.172+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:20:01.172+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:20:01.173+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:20:01.179+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:20:31.609+0000] {processor.py:186} INFO - Started process (PID=6017) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:20:31.610+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:20:31.611+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:20:31.611+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:20:31.612+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:20:31.618+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:21:02.109+0000] {processor.py:186} INFO - Started process (PID=6032) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:21:02.110+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:21:02.111+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:21:02.111+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:21:02.112+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:21:02.119+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.015 seconds
+[2025-04-22T04:21:33.477+0000] {processor.py:186} INFO - Started process (PID=6047) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:21:33.478+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:21:33.488+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:21:33.486+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:21:33.504+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:21:33.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.127 seconds
+[2025-04-22T04:22:04.190+0000] {processor.py:186} INFO - Started process (PID=6062) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:22:04.190+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:22:04.191+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:22:04.191+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:22:04.192+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:22:04.198+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:22:34.641+0000] {processor.py:186} INFO - Started process (PID=6077) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:22:34.641+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:22:34.642+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:22:34.642+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:22:34.644+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:22:34.649+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:23:05.067+0000] {processor.py:186} INFO - Started process (PID=6092) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:23:05.068+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:23:05.068+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:23:05.068+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:23:05.070+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:23:05.075+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.010 seconds
+[2025-04-22T04:23:35.483+0000] {processor.py:186} INFO - Started process (PID=6107) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:23:35.483+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:23:35.485+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:23:35.485+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:23:35.487+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:23:35.495+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.017 seconds
+[2025-04-22T04:24:05.856+0000] {processor.py:186} INFO - Started process (PID=6122) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:24:05.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:24:05.857+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:24:05.857+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:24:05.859+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:24:05.864+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.012 seconds
+[2025-04-22T04:24:36.245+0000] {processor.py:186} INFO - Started process (PID=6137) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:24:36.245+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:24:36.246+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:24:36.246+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:24:36.248+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:24:36.253+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:25:06.669+0000] {processor.py:186} INFO - Started process (PID=6152) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:25:06.670+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:25:06.671+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:25:06.671+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:25:06.672+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:25:06.677+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:25:37.075+0000] {processor.py:186} INFO - Started process (PID=6167) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:25:37.075+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:25:37.076+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:25:37.076+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:25:37.078+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:25:37.083+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:26:07.522+0000] {processor.py:186} INFO - Started process (PID=6182) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:26:07.522+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:26:07.523+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:26:07.523+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:26:07.524+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:26:07.530+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.010 seconds
+[2025-04-22T04:26:37.974+0000] {processor.py:186} INFO - Started process (PID=6197) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:26:37.974+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:26:37.975+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:26:37.975+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:26:37.977+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:26:37.982+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:27:08.436+0000] {processor.py:186} INFO - Started process (PID=6212) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:27:08.437+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:27:08.438+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:27:08.438+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:27:08.439+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:27:08.444+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:27:38.836+0000] {processor.py:186} INFO - Started process (PID=6227) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:27:38.836+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:27:38.838+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:27:38.837+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:27:38.839+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:27:38.845+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.012 seconds
+[2025-04-22T04:28:09.244+0000] {processor.py:186} INFO - Started process (PID=6242) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:28:09.244+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:28:09.245+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:28:09.245+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:28:09.246+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:28:09.252+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:28:39.704+0000] {processor.py:186} INFO - Started process (PID=6257) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:28:39.705+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:28:39.706+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:28:39.706+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:28:39.707+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:28:39.712+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:29:10.147+0000] {processor.py:186} INFO - Started process (PID=6272) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:29:10.147+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:29:10.148+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:29:10.148+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:29:10.150+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:29:10.155+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:29:40.578+0000] {processor.py:186} INFO - Started process (PID=6287) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:29:40.579+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:29:40.580+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:29:40.579+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:29:40.581+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:29:40.586+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:30:10.929+0000] {processor.py:186} INFO - Started process (PID=6302) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:30:10.930+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:30:10.931+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:30:10.931+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:30:10.932+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:30:10.937+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.010 seconds
+[2025-04-22T04:30:41.398+0000] {processor.py:186} INFO - Started process (PID=6317) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:30:41.398+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:30:41.399+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:30:41.399+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:30:41.400+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:30:41.406+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:31:11.862+0000] {processor.py:186} INFO - Started process (PID=6332) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:31:11.862+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:31:11.863+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:31:11.863+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:31:11.865+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:31:11.870+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:31:42.272+0000] {processor.py:186} INFO - Started process (PID=6347) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:31:42.272+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:31:42.273+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:31:42.273+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:31:42.275+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:31:42.280+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:32:12.732+0000] {processor.py:186} INFO - Started process (PID=6362) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:32:12.732+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:32:12.733+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:32:12.733+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:32:12.734+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:32:12.740+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:32:43.160+0000] {processor.py:186} INFO - Started process (PID=6377) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:32:43.160+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:32:43.161+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:32:43.161+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:32:43.163+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:32:43.168+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:33:13.557+0000] {processor.py:186} INFO - Started process (PID=6392) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:33:13.557+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:33:13.558+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:33:13.558+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:33:13.560+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:33:13.565+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:33:43.986+0000] {processor.py:186} INFO - Started process (PID=6405) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:33:43.986+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:33:43.987+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:33:43.987+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:33:43.989+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:33:43.994+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.012 seconds
+[2025-04-22T04:34:14.372+0000] {processor.py:186} INFO - Started process (PID=6422) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:34:14.373+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:34:14.374+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:34:14.374+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:34:14.375+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:34:14.380+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.010 seconds
+[2025-04-22T04:34:44.833+0000] {processor.py:186} INFO - Started process (PID=6437) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:34:44.834+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:34:44.835+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:34:44.835+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:34:44.836+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:34:44.841+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:35:15.238+0000] {processor.py:186} INFO - Started process (PID=6452) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:35:15.238+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:35:15.239+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:35:15.239+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:35:15.240+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:35:15.246+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:35:45.705+0000] {processor.py:186} INFO - Started process (PID=6467) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:35:45.705+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:35:45.706+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:35:45.706+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:35:45.708+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:35:45.713+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:36:16.138+0000] {processor.py:186} INFO - Started process (PID=6482) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:36:16.138+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:36:16.139+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:36:16.139+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:36:16.140+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:36:16.145+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.010 seconds
+[2025-04-22T04:36:46.599+0000] {processor.py:186} INFO - Started process (PID=6497) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:36:46.599+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:36:46.600+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:36:46.600+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:36:46.601+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:36:46.607+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.010 seconds
+[2025-04-22T04:37:17.094+0000] {processor.py:186} INFO - Started process (PID=6512) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:37:17.094+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:37:17.095+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:37:17.095+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:37:17.097+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:37:17.103+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.012 seconds
+[2025-04-22T04:37:47.502+0000] {processor.py:186} INFO - Started process (PID=6527) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:37:47.502+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:37:47.503+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:37:47.503+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:37:47.504+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:37:47.509+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.010 seconds
+[2025-04-22T04:38:17.940+0000] {processor.py:186} INFO - Started process (PID=6542) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:38:17.941+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:38:17.942+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:38:17.942+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:38:17.943+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:38:17.949+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:38:48.350+0000] {processor.py:186} INFO - Started process (PID=6557) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:38:48.351+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:38:48.352+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:38:48.352+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:38:48.353+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:38:48.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.010 seconds
+[2025-04-22T04:39:18.798+0000] {processor.py:186} INFO - Started process (PID=6572) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:39:18.799+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:39:18.800+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:39:18.799+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:39:18.801+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:39:18.808+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.015 seconds
+[2025-04-22T04:39:49.277+0000] {processor.py:186} INFO - Started process (PID=6587) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:39:49.277+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:39:49.278+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:39:49.278+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:39:49.279+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:39:49.286+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.013 seconds
+[2025-04-22T04:40:19.804+0000] {processor.py:186} INFO - Started process (PID=6602) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:40:19.805+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:40:19.806+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:40:19.805+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:40:19.807+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:40:19.813+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.013 seconds
+[2025-04-22T04:40:50.260+0000] {processor.py:186} INFO - Started process (PID=6617) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:40:50.260+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:40:50.261+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:40:50.261+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:40:50.262+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:40:50.268+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.012 seconds
+[2025-04-22T04:41:20.719+0000] {processor.py:186} INFO - Started process (PID=6632) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:41:20.719+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:41:20.720+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:41:20.720+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:41:20.721+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:41:20.727+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:41:51.199+0000] {processor.py:186} INFO - Started process (PID=6647) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:41:51.199+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:41:51.200+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:41:51.200+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:41:51.201+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:41:51.207+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:42:21.634+0000] {processor.py:186} INFO - Started process (PID=6662) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:42:21.634+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:42:21.635+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:42:21.635+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:42:21.636+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:42:21.641+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.010 seconds
+[2025-04-22T04:42:52.047+0000] {processor.py:186} INFO - Started process (PID=6677) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:42:52.047+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:42:52.048+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:42:52.048+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:42:52.050+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:42:52.055+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:43:22.485+0000] {processor.py:186} INFO - Started process (PID=6692) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:43:22.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:43:22.488+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:43:22.488+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:43:22.489+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:43:22.496+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.014 seconds
+[2025-04-22T04:43:52.944+0000] {processor.py:186} INFO - Started process (PID=6707) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:43:52.944+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:43:52.945+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:43:52.945+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:43:52.946+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:43:52.952+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:44:23.408+0000] {processor.py:186} INFO - Started process (PID=6722) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:44:23.409+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:44:23.410+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:44:23.410+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:44:23.411+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:44:23.418+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.012 seconds
+[2025-04-22T04:44:53.899+0000] {processor.py:186} INFO - Started process (PID=6737) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:44:53.900+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:44:53.901+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:44:53.900+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:44:53.902+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:44:53.907+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.010 seconds
+[2025-04-22T04:45:24.426+0000] {processor.py:186} INFO - Started process (PID=6752) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:45:24.426+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:45:24.427+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:45:24.427+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:45:24.429+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:45:24.434+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.012 seconds
+[2025-04-22T04:45:54.865+0000] {processor.py:186} INFO - Started process (PID=6765) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:45:54.866+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:45:54.867+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:45:54.867+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:45:54.868+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:45:54.873+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.012 seconds
+[2025-04-22T04:46:25.352+0000] {processor.py:186} INFO - Started process (PID=6782) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:46:25.353+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:46:25.354+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:46:25.354+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:46:25.355+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:46:25.361+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds
+[2025-04-22T04:46:55.816+0000] {processor.py:186} INFO - Started process (PID=6797) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:46:55.817+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:46:55.818+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:46:55.818+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:46:55.819+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:46:55.825+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.013 seconds
+[2025-04-22T04:47:26.278+0000] {processor.py:186} INFO - Started process (PID=6812) to work on /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:47:26.279+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load_spotify_to_snowflake.py for tasks to queue
+[2025-04-22T04:47:26.279+0000] {logging_mixin.py:190} INFO - [2025-04-22T04:47:26.279+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:47:26.281+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/load_spotify_to_snowflake.py
+[2025-04-22T04:47:26.287+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load_spotify_to_snowflake.py took 0.011 seconds

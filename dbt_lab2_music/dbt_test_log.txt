@@ -1,0 +1,32 @@
+[0m00:00:06  Running with dbt=1.9.4
+[0m00:00:06  Registered adapter: snowflake=1.9.1
+[0m00:00:06  Found 2 models, 10 data tests, 1 source, 472 macros
+[0m00:00:06  
+[0m00:00:06  Concurrency: 1 threads (target='dev')
+[0m00:00:06  
+[0m00:00:07  1 of 10 START test not_null_cleaned_spotify_artist_title ....................... [RUN]
+[0m00:00:07  1 of 10 PASS not_null_cleaned_spotify_artist_title ............................. [[32mPASS[0m in 0.16s]
+[0m00:00:07  2 of 10 START test not_null_cleaned_spotify_id ................................. [RUN]
+[0m00:00:07  2 of 10 PASS not_null_cleaned_spotify_id ....................................... [[32mPASS[0m in 0.13s]
+[0m00:00:07  3 of 10 START test not_null_cleaned_spotify_streams ............................ [RUN]
+[0m00:00:07  3 of 10 PASS not_null_cleaned_spotify_streams .................................. [[32mPASS[0m in 0.17s]
+[0m00:00:07  4 of 10 START test not_null_cleaned_spotify_year ............................... [RUN]
+[0m00:00:08  4 of 10 PASS not_null_cleaned_spotify_year ..................................... [[32mPASS[0m in 0.16s]
+[0m00:00:08  5 of 10 START test not_null_genre_summary_avg_daily_streams .................... [RUN]
+[0m00:00:08  5 of 10 PASS not_null_genre_summary_avg_daily_streams .......................... [[32mPASS[0m in 0.19s]
+[0m00:00:08  6 of 10 START test not_null_genre_summary_main_genre ........................... [RUN]
+[0m00:00:08  6 of 10 PASS not_null_genre_summary_main_genre ................................. [[32mPASS[0m in 0.17s]
+[0m00:00:08  7 of 10 START test not_null_genre_summary_num_songs ............................ [RUN]
+[0m00:00:08  7 of 10 PASS not_null_genre_summary_num_songs .................................. [[32mPASS[0m in 0.27s]
+[0m00:00:08  8 of 10 START test not_null_genre_summary_total_streams ........................ [RUN]
+[0m00:00:08  8 of 10 PASS not_null_genre_summary_total_streams .............................. [[32mPASS[0m in 0.12s]
+[0m00:00:08  9 of 10 START test unique_cleaned_spotify_id ................................... [RUN]
+[0m00:00:08  9 of 10 PASS unique_cleaned_spotify_id ......................................... [[32mPASS[0m in 0.13s]
+[0m00:00:08  10 of 10 START test unique_genre_summary_main_genre ............................ [RUN]
+[0m00:00:09  10 of 10 PASS unique_genre_summary_main_genre .................................. [[32mPASS[0m in 0.14s]
+[0m00:00:09  
+[0m00:00:09  Finished running 10 data tests in 0 hours 0 minutes and 2.27 seconds (2.27s).
+[0m00:00:09  
+[0m00:00:09  [32mCompleted successfully[0m
+[0m00:00:09  
+[0m00:00:09  Done. PASS=10 WARN=0 ERROR=0 SKIP=0 TOTAL=10

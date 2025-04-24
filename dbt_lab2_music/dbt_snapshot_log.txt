@@ -1,0 +1,4 @@
+[0m00:00:11  Running with dbt=1.9.4
+[0m00:00:11  Registered adapter: snowflake=1.9.1
+[0m00:00:11  Found 2 models, 10 data tests, 1 source, 472 macros
+[0m00:00:11  Nothing to do. Try checking your model configs and model specification args

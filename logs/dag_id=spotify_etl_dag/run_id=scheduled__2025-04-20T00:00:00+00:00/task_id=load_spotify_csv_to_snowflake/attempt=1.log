@@ -1,0 +1,195 @@
+[2025-04-21T02:13:56.398+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-21T02:13:56.403+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_etl_dag.load_spotify_csv_to_snowflake scheduled__2025-04-20T00:00:00+00:00 [queued]>
+[2025-04-21T02:13:56.407+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_etl_dag.load_spotify_csv_to_snowflake scheduled__2025-04-20T00:00:00+00:00 [queued]>
+[2025-04-21T02:13:56.407+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2025-04-21T02:13:56.413+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): load_spotify_csv_to_snowflake> on 2025-04-20 00:00:00+00:00
+[2025-04-21T02:13:56.416+0000] {standard_task_runner.py:72} INFO - Started process 252 to run task
+[2025-04-21T02:13:56.421+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'spotify_etl_dag', 'load_spotify_csv_to_snowflake', 'scheduled__2025-04-20T00:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/spotify_etl_dag.py', '--cfg-path', '/tmp/tmpjjvbpaqo']
+[2025-04-21T02:13:56.425+0000] {standard_task_runner.py:105} INFO - Job 3: Subtask load_spotify_csv_to_snowflake
+[2025-04-21T02:13:56.451+0000] {task_command.py:467} INFO - Running <TaskInstance: spotify_etl_dag.load_spotify_csv_to_snowflake scheduled__2025-04-20T00:00:00+00:00 [running]> on host 0572d59512e5
+[2025-04-21T02:13:56.483+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spotify_etl_dag' AIRFLOW_CTX_TASK_ID='load_spotify_csv_to_snowflake' AIRFLOW_CTX_EXECUTION_DATE='2025-04-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-20T00:00:00+00:00'
+[2025-04-21T02:13:56.484+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-21T02:13:56.524+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-21T02:13:56.525+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.10.14, Platform: Linux-6.10.14-linuxkit-aarch64-with-glibc2.36
+[2025-04-21T02:13:56.526+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-04-21T02:13:56.526+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-04-21T02:14:55.122+0000] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/opt/airflow/dags/load_spotify_to_snowflake.py", line 29, in load_csv_to_snowflake
+    cursor.execute("""
+  File "/home/airflow/.local/lib/python3.10/site-packages/snowflake/connector/cursor.py", line 1087, in execute
+    Error.errorhandler_wrapper(self.connection, self, error_class, errvalue)
+  File "/home/airflow/.local/lib/python3.10/site-packages/snowflake/connector/errors.py", line 284, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/home/airflow/.local/lib/python3.10/site-packages/snowflake/connector/errors.py", line 339, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/airflow/.local/lib/python3.10/site-packages/snowflake/connector/errors.py", line 215, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 000904 (42000): 01bbd3e6-0304-fe9b-0004-59ff0023c80e: SQL compilation error: error line 5 at position 95
+invalid identifier 'NAN'
+[2025-04-21T02:14:55.152+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=spotify_etl_dag, task_id=load_spotify_csv_to_snowflake, run_id=scheduled__2025-04-20T00:00:00+00:00, execution_date=20250420T000000, start_date=20250421T021356, end_date=20250421T021455
+[2025-04-21T02:14:55.165+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-21T02:14:55.166+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 3 for task load_spotify_csv_to_snowflake (000904 (42000): 01bbd3e6-0304-fe9b-0004-59ff0023c80e: SQL compilation error: error line 5 at position 95
+invalid identifier 'NAN'; 252)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/opt/airflow/dags/load_spotify_to_snowflake.py", line 29, in load_csv_to_snowflake
+    cursor.execute("""
+  File "/home/airflow/.local/lib/python3.10/site-packages/snowflake/connector/cursor.py", line 1087, in execute
+    Error.errorhandler_wrapper(self.connection, self, error_class, errvalue)
+  File "/home/airflow/.local/lib/python3.10/site-packages/snowflake/connector/errors.py", line 284, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/home/airflow/.local/lib/python3.10/site-packages/snowflake/connector/errors.py", line 339, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/airflow/.local/lib/python3.10/site-packages/snowflake/connector/errors.py", line 215, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 000904 (42000): 01bbd3e6-0304-fe9b-0004-59ff0023c80e: SQL compilation error: error line 5 at position 95
+invalid identifier 'NAN'
+[2025-04-21T02:14:55.210+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-04-21T02:14:55.221+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-21T02:14:55.222+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-04-21T06:22:41.419+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-21T06:22:41.426+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_etl_dag.load_spotify_csv_to_snowflake scheduled__2025-04-20T00:00:00+00:00 [queued]>
+[2025-04-21T06:22:41.431+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_etl_dag.load_spotify_csv_to_snowflake scheduled__2025-04-20T00:00:00+00:00 [queued]>
+[2025-04-21T06:22:41.431+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2025-04-21T06:22:41.437+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): load_spotify_csv_to_snowflake> on 2025-04-20 00:00:00+00:00
+[2025-04-21T06:22:41.442+0000] {standard_task_runner.py:72} INFO - Started process 3567 to run task
+[2025-04-21T06:22:41.450+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'spotify_etl_dag', 'load_spotify_csv_to_snowflake', 'scheduled__2025-04-20T00:00:00+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/spotify_etl_dag.py', '--cfg-path', '/tmp/tmp805kd8bv']
+[2025-04-21T06:22:41.453+0000] {standard_task_runner.py:105} INFO - Job 2: Subtask load_spotify_csv_to_snowflake
+[2025-04-21T06:22:41.480+0000] {task_command.py:467} INFO - Running <TaskInstance: spotify_etl_dag.load_spotify_csv_to_snowflake scheduled__2025-04-20T00:00:00+00:00 [running]> on host 4477b8b4e9dc
+[2025-04-21T06:22:41.520+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spotify_etl_dag' AIRFLOW_CTX_TASK_ID='load_spotify_csv_to_snowflake' AIRFLOW_CTX_EXECUTION_DATE='2025-04-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-20T00:00:00+00:00'
+[2025-04-21T06:22:41.521+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-21T06:22:41.570+0000] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/opt/airflow/dags/load_spotify_to_snowflake.py", line 24, in load_csv_to_snowflake
+    conn = hook.get_conn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 299, in get_conn
+    conn_config = self._get_conn_params
+  File "/usr/local/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 192, in _get_conn_params
+    conn = self.get_connection(self.snowflake_conn_id)  # type: ignore[attr-defined]
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/hooks/base.py", line 83, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/connection.py", line 537, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `snowflake_conn` isn't defined
+[2025-04-21T06:22:41.577+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=spotify_etl_dag, task_id=load_spotify_csv_to_snowflake, run_id=scheduled__2025-04-20T00:00:00+00:00, execution_date=20250420T000000, start_date=20250421T062241, end_date=20250421T062241
+[2025-04-21T06:22:41.584+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-21T06:22:41.584+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 2 for task load_spotify_csv_to_snowflake (The conn_id `snowflake_conn` isn't defined; 3567)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/opt/airflow/dags/load_spotify_to_snowflake.py", line 24, in load_csv_to_snowflake
+    conn = hook.get_conn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 299, in get_conn
+    conn_config = self._get_conn_params
+  File "/usr/local/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 192, in _get_conn_params
+    conn = self.get_connection(self.snowflake_conn_id)  # type: ignore[attr-defined]
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/hooks/base.py", line 83, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/connection.py", line 537, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `snowflake_conn` isn't defined
+[2025-04-21T06:22:41.630+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-04-21T06:22:41.636+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-21T06:22:41.637+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

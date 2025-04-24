@@ -1,0 +1,14 @@
+[0m00:00:01  Running with dbt=1.9.4
+[0m00:00:02  Registered adapter: snowflake=1.9.1
+[0m00:00:02  Found 2 models, 10 data tests, 1 source, 472 macros
+[0m00:00:02  
+[0m00:00:02  Concurrency: 1 threads (target='dev')
+[0m00:00:02  
+[0m00:00:03  1 of 1 START sql table model raw.genre_summary ................................. [RUN]
+[0m00:00:04  1 of 1 OK created sql table model raw.genre_summary ............................ [[32mSUCCESS 1[0m in 1.21s]
+[0m00:00:04  
+[0m00:00:04  Finished running 1 table model in 0 hours 0 minutes and 2.00 seconds (2.00s).
+[0m00:00:04  
+[0m00:00:04  [32mCompleted successfully[0m
+[0m00:00:04  
+[0m00:00:04  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1

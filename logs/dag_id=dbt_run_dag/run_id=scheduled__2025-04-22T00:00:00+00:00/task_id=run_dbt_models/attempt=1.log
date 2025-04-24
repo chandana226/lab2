@@ -1,0 +1,20 @@
+[2025-04-23T22:58:52.425+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-23T22:58:52.439+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_run_dag.run_dbt_models scheduled__2025-04-22T00:00:00+00:00 [queued]>
+[2025-04-23T22:58:52.448+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_run_dag.run_dbt_models scheduled__2025-04-22T00:00:00+00:00 [queued]>
+[2025-04-23T22:58:52.449+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2025-04-23T22:58:52.470+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): run_dbt_models> on 2025-04-22 00:00:00+00:00
+[2025-04-23T22:58:52.475+0000] {standard_task_runner.py:72} INFO - Started process 172 to run task
+[2025-04-23T22:58:52.479+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dbt_run_dag', 'run_dbt_models', 'scheduled__2025-04-22T00:00:00+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/dbt_run_dag.py', '--cfg-path', '/tmp/tmp8c6wun_5']
+[2025-04-23T22:58:52.482+0000] {standard_task_runner.py:105} INFO - Job 14: Subtask run_dbt_models
+[2025-04-23T22:58:52.537+0000] {task_command.py:467} INFO - Running <TaskInstance: dbt_run_dag.run_dbt_models scheduled__2025-04-22T00:00:00+00:00 [running]> on host f2b464dc2be1
+[2025-04-23T22:58:52.631+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dbt_run_dag' AIRFLOW_CTX_TASK_ID='run_dbt_models' AIRFLOW_CTX_EXECUTION_DATE='2025-04-22T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-22T00:00:00+00:00'
+[2025-04-23T22:58:52.632+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-23T22:58:52.696+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-04-23T22:58:52.697+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/***/dbt_lab2_music && dbt run --profiles-dir=/home/***/.dbt --log-level=info > dbt_run_log.txt 2>&1']
+[2025-04-23T22:58:52.703+0000] {subprocess.py:86} INFO - Output:
+[2025-04-23T22:58:57.467+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-04-23T22:58:57.487+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-23T22:58:57.487+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=dbt_run_dag, task_id=run_dbt_models, run_id=scheduled__2025-04-22T00:00:00+00:00, execution_date=20250422T000000, start_date=20250423T225852, end_date=20250423T225857
+[2025-04-23T22:58:57.526+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-23T22:58:57.538+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-23T22:58:57.539+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

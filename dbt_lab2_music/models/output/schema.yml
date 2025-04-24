@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: genre_summary
+    description: "Genre-level summary of stream statistics from Spotify"
+    columns:
+      - name: main_genre
+        description: "Primary genre name aggregated in this summary"
+        tests:
+          - not_null
+          - unique
+
+      - name: num_songs
+        description: "Total number of unique songs in this genre"
+        tests:
+          - not_null
+
+      - name: total_streams
+        description: "Sum of streams for all songs in this genre"
+        tests:
+          - not_null
+
+      - name: avg_daily_streams
+        description: "Average daily streams across all songs in this genre"
+        tests:
+          - not_null
+

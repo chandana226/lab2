@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    database: LAB2_DB
+    schema: RAW
+    tables:
+      - name: top_streamed_songs
+
