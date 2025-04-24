@@ -60,7 +60,7 @@ def load_csv_to_snowflake(**kwargs):
                 """)
             
             # Get CSV file path from Airflow Variables
-            csv_path = Variable.get("spotify_csv_path", default_var="/path/to/spotify_data.csv")
+            csv_path = Variable.get("spotify_csv_path", default_var="/Users/chandanasreya/Documents/spotify_full_list_20102023.csv")
             logging.info(f"Processing CSV file: {csv_path}")
             
             try:
